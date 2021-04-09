@@ -23,6 +23,7 @@ pipeline {
                 sh "echo '${env.GIT_LATEST_COMMIT_EDITOR}'"
             }
         }
+    }
         
             stages{
                 stage ('npm install'){
